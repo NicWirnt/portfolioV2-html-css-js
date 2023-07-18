@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nico Wiranata</title>
+    <link rel="stylesheet" href="../src/stylesheet/style.css" />
+  </head>
+  <body class="body-about">
+    <div class="about-background-container">
+      <img
+        src="./src/imgs/bg_02.jpg"
+        alt="about me background"
+        class="about-me-background"
+      />
+    </div>
+
+    <header>
+      <nav>
+        <div class="nav-container">
+          <a href="./index.html">
+            <img src="src/imgs/logo.png" alt="Nico Wiranata" class="logo"
+          /></a>
+
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="myWork.html">My Work</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="main-about">
+      <article class="about-me">
+        <h1>
+          My name is <span>Nico Wiranata</span> <br />
+          I'm <span>international</span> student <br />
+          from
+          <img src="./src/imgs/id-flag.jpg" alt="Indonesia" class="flag" />
+          <br />
+          Learning to <span>build</span> since 2022
+          <hr />
+          <span class="typedAbout"></span>
+          <br />
+          Collide Here
+        </h1>
+      </article>
+      <section class="section-headings">
+        <h1>My Hobbies</h1>
+      </section>
+      <section class="section-basket section-about-me">
+        <aside class="basket-parallax"></aside>
+        <p>
+          Basketball has been part of my life <br />
+          playing since in high school <br />
+          i have achieved quite a lot with basketball <br />
+          and i believe i could do the same <br />
+          with developing myself
+        </p>
+      </section>
+
+      <section class="section-coffee section-about-me">
+        <aside class="coffee-parallax"></aside>
+        <p>
+          Coffee is a poison of my choice<br />
+          <br />
+        </p>
+      </section>
+      <section class="section-photography section-about-me">
+        <aside class="lenses-parallax"></aside>
+        <p>
+          Photography is my recent hobby<br />
+          that i tried to learn<br />
+          even though i'm still bad at it
+        </p>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright ©️ Nico Wiranata</p>
+      <p>Powered by HTML CSS Javascript</p>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      let typingEffectAboutme = new Typed(".typedAbout", {
+        strings: ["Expertise", "Passion", "Hardwork"],
+        loop: true,
+        typeSpeed: 70,
+        backSpeed: 80,
+        backDelay: 800,
+      });
+    </script>
+  </body>
+</html>
